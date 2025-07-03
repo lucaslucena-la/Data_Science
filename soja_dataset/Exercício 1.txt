@@ -1,0 +1,74 @@
+Exercício 1
+
+1. Atributos: 
+Mês/Ano: Qualitativas Ordinais
+Estadual: Quantitativas Contínuas
+Nacional: Quantitativas Contínuas
+
+2. Medidas de Localização (Centralidade)
+Aplica-se às colunas Estadual e Nacional, pois são numéricas:
+
+Média: valor médio dos preços ao longo do tempo
+
+Mediana: valor central da série
+
+Moda: valor mais frequente (pouco útil se os preços forem todos diferentes)
+
+Resposta:
+
+Média:
+Estadual    69.006515
+Nacional    72.807099
+
+Mediana:
+Estadual    56.5336
+Nacional    61.4030
+
+Moda:
+Estadual   Não existe
+Nacional   não existe
+
+3. Medidas de Dispersão (Variabilidade)
+Aplica-se às colunas Estadual e Nacional, pois são variáveis numéricas e contínuas.
+
+Desvio padrão:
+Mede o quanto, em média, os valores se afastam da média. Valores altos indicam maior variação no preço da soja ao longo do tempo.
+
+Variância:
+Representa a média dos quadrados dos desvios em relação à média. É o desvio padrão ao quadrado, dando mais peso às variações extremas.
+
+Amplitude:
+É a diferença entre o maior e o menor valor da série. Indica a faixa total de variação dos preços observados.
+
+Resposta: 
+
+Desvio padrão:
+Estadual    42.612101
+Nacional    43.074328
+
+Variância:
+Estadual    1815.791186
+Nacional    1855.397709
+
+Amplitude:
+Estadual    161.9111
+Nacional    169.9885
+
+4. Medidas de Associação (Correlação)
+Aplica-se às colunas Estadual e Nacional, pois ambas são variáveis numéricas contínuas.
+
+Correlação de Pearson:
+Mede o grau de associação linear entre duas variáveis. Os valores vão de -1 a 1:
+
++1: correlação positiva perfeita (ambas sobem juntas)
+
+0: sem correlação linear
+
+-1: correlação negativa perfeita (uma sobe e a outra desce)
+
+Resposta:
+
+Correlação (Pearson):
+          Estadual  Nacional
+Estadual  1.000000  0.996386
+Nacional  0.996386  1.000000
